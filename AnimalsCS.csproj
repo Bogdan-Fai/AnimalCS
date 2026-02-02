@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Animals\Animal.cs" />
+    <Compile Include="Animals\Dog.cs" />
+    <Compile Include="Animals\Cat.cs" />
+    <Compile Include="Methods\IPet.cs" />
+    <Compile Include="Methods\Shelter.cs" />
+    <Compile Include="Program.cs" />
+  </ItemGroup>
+
+</Project>
